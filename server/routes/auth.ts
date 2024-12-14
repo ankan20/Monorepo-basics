@@ -2,12 +2,12 @@ import jwt from "jsonwebtoken";
 import express from 'express';
 import { authenticateJwt, SECRET } from "../middleware/";
 import { User } from "../db";
-import { signupInput } from "@100xdevs/common"
+import { signupInput } from "@ankan_21/common"
 
 const router = express.Router();
 
 router.post('/signup', async (req, res) => {
-    let parsedInput = signupInput.safeParse(req.body)
+    let parsedInput = signupInput.safeParse(req.body);
     if (!parsedInput.success) {
       return res.status(403).json({
         msg: "error"

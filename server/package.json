@@ -1,7 +1,7 @@
 {
-  "name": "assignment-1",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Convert this from JS to typescript.",
+  "description": "Monorepo backend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@100xdevs/common": "^1.0.2",
+    "@ankan_21/common": "^1.0.2",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
     "@types/jsonwebtoken": "^9.0.2",

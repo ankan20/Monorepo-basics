@@ -22,6 +22,13 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@ankan_21/common@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/@ankan_21/common/-/common-1.0.2.tgz"
+  integrity sha512-IGomLgTK5Rh/R9+HqTja9qoYuz74yu+ua6ji4asHhImSUL9u8fzuaw+i7SmRImj3HhTNLNTNmSUJjV7dMItitw==
+  dependencies:
+    zod "^3.21.4"
+
 "@babel/code-frame@^7.22.5":
   version "7.22.5"
   resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.22.5.tgz"
